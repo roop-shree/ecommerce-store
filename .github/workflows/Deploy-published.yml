@@ -28,7 +28,7 @@ jobs:
 
       - name: Push Docker Image to Docker Hub
         run: |
-          docker push roopashrip/django-ecommerce:latest  # Fixed error: removed space between `:` and `latest`
+          docker push roopashrip/django-ecommerce:latest 
 
 
 
